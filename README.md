@@ -85,3 +85,40 @@ Set it under Calibrate › Dial › Background. It is also offered on the Snap r
   - Snaps saved in this mode keep a much wider crop of the camera frame, so the strap is included.
 - **Blurred:** the dial circle over a soft, darkened, slightly parallaxed copy of the photo.
 - **App colour:** the previous look, following Settings › Background. Built-in themes use this.
+
+## Straps (per theme)
+Calibrate → **Strap** (also a *Strap* picker on the Snap review step):
+
+- **None**: the dial only (the original behaviour).
+- **Photo strap**: shows the strap from your photo (the same as Background › Show strap).
+- **Drawn straps**: Oyster (3-link), Jubilee (5-link), President (rounded 3-link), Milanese mesh, Engineer (heavy link), Beads of rice, NATO (striped fabric with colour presets), Leather (smooth or croc, with stitching colour), Rubber, Tropic, FKM ridged.
+
+Metal finishes are Steel brushed, Steel polished, Two-tone (steel with gold centre links), Yellow gold, Rose gold, Black PVD and Titanium. Fabric, leather and rubber straps have colour pickers.
+
+Straps attach at the 12 and 6 o'clock lugs and run off-screen. Their width scales with the dial, and you can adjust it with the Width and Length sliders. The clasp or buckle is optional.
+
+Straps are drawn as a 3D layer just below the case, so they shift with tilt and the metallic sheen moves as the watch tilts. They work on Black, Blurred and App-colour backgrounds and are saved with the theme.
+
+## Digital · Rugged face
+Open Themes → **⌚ New digital face**, or pick one of the built-in *Digital · Rugged* themes.
+
+The face is a chunky resin case with bezel, screws, bumpers and four side buttons. It has a 7-segment LCD with faint "ghost" segments, a dot-matrix weekday, the date, PM/24H, signal and alarm indicators.
+
+Tap the drawn buttons (or use the keyboard: **M** mode, **S** start, **X** reset, **J** adjust, **L** light):
+
+| Mode | START (upper right) | RESET (lower right) | ADJUST (upper left) |
+|---|---|---|---|
+| Time | 12/24 h | positive/negative display | hourly chime on/off |
+| World time | next city | previous city | next city |
+| Stopwatch (1/100 s) | start/stop | split / clear split / reset | – |
+| Timer | start/pause (+1 min while editing) | reset (−1 min while editing) | edit length |
+| Alarm | on/off (+ while editing) | chime (− while editing) | edit hour → minute |
+
+- **MODE** (lower left) cycles through the modes.
+- **LIGHT** (front) or tapping the display turns the backlight on for about 2.6 s (blue-green or amber).
+- The timer, alarm and hourly chime beep through WebAudio. This is best effort: it only works while the app is open and in the foreground. Browsers may stay silent until you've tapped the page once.
+
+In the Face tab you can set positive or negative display, LCD tint, illuminator colour, 12/24 h, chime, case colour (Black, Matte olive, White, Red/black, Gold/black, Clear), world-time city, alarm and timer length. It uses the same synced time as the analog faces and takes part in 3D tilt: the case has depth and the LCD sits recessed under glass with glare. The default strap is resin/rubber, and every strap type is available.
+
+## Updating
+The service worker caches the app for offline use. When a new version is published, an open app picks it up in the background. The next time the app is opened or reloaded it shows the new version (close and reopen an installed PWA).
